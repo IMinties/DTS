@@ -6,7 +6,7 @@ const {
      Routes
 } = require('discord-api-types/v9');
 
-const token = 'OTA0MjI0NDMyMzM4Mzk5MjQz.YX4aoA.FMpmomfrfvhJIz2pme64C9vWd_U';
+const token = 'WOAH WOAH WOAH HOLD UP THERE BUDDy';
 
 const fs = require('fs');
 // Place your client and guild ids here

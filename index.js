@@ -2,7 +2,7 @@ const {Client, Intents} = require("discord.js");
 const { Collection } = require('discord.js');
 const fs = require('fs');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
-const token = 'NOPE';
+const token = 'OTA0MjI0NDMyMzM4Mzk5MjQz.YX4aoA.FMpmomfrfvhJIz2pme64C9vWd_U';
 
 client.commands = new Collection();
 

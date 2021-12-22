@@ -2,7 +2,7 @@ const {Client, Intents} = require("discord.js");
 const { Collection } = require('discord.js');
 const fs = require('fs');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
-const token = 'Ummmm what you looking at';
+const token = 'Nope';
 const { MessageActionRow, MessageButton } = require('discord.js');
 
 client.commands = new Collection();
@@ -29,7 +29,7 @@ const commandFolders = fs.readdirSync("./src/commands");
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isCommand()) return;
 
-	if (interaction.commandName === 'ping') {
+	if (command === 'ping') {
 		const row = new MessageActionRow()
 			.addComponents(
 				new MessageButton()
